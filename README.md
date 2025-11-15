@@ -2,6 +2,8 @@
 
 Visual Product Matcher is a lightweight visual search demo. Users can upload an image (or provide a URL) and get similar catalog items in seconds. The entire stack runs on the client, making it easy to deploy on any static-friendly host such as Vercel.
 
+Live demo: [visual-product-matcher-unthinkable.vercel.app](https://visual-product-matcher-unthinkable.vercel.app/)
+
 ## Highlights
 
 - Next.js App Router + TypeScript + Tailwind CSS 4
@@ -9,6 +11,10 @@ Visual Product Matcher is a lightweight visual search demo. Users can upload an 
 - Canvas-based feature extraction (mean RGB, brightness, contrast, saturation)
 - Cosine-similarity ranking with adjustable thresholds
 - Loading states, error messaging, and fully responsive layout
+
+## Approach (≤200 words)
+
+Built Visual Product Matcher as a client-first sandbox that runs everywhere without provisioning servers. I started by mapping the UX requirements (upload + URL ingest, adjustable threshold, responsive hero/cards) and produced a mock matching the provided dark glass design. Catalog coverage comes from 56 Unsplash-backed entries in `public/products.json`, each annotated with metadata and precomputed embeddings so the app can work offline. The similarity engine uses a lightweight canvas histogram embedding and cosine ranking, giving sub-second results and avoiding heavy TensorFlow downloads. To keep URL uploads reliable, I added a Next.js route that proxies remote images, enforces safe headers, and returns CORS-friendly blobs; it falls back gracefully when a host blocks CORS outright. Styling leans on Tailwind 4 utility tokens plus a few custom classes for glow borders, motion, and radial backgrounds. Everything runs through ESLint, TypeScript, and `next build`, so reviewers can clone, `npm install`, and ship immediately.
 
 ## Tech Stack
 
