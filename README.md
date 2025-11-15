@@ -1,6 +1,6 @@
 # Visual Product Matcher
 
-Visual Product Matcher is a lightweight visual search demo. Users can upload an image (or provide a URL) and get similar catalog items in seconds. The entire stack runs on the client, making it easy to deploy on any static-friendly host such as Vercel.
+Visual Product Matcher is a lightweight visual search demo. Users can upload an image (or provide a URL) and get similar catalog items in seconds. The entire stack runs on the client, making it easier to deploy on any static-friendly host such as Vercel.
 
 Live demo: [visual-product-matcher-unthinkable.vercel.app](https://visual-product-matcher-unthinkable.vercel.app/)
 
