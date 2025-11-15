@@ -1,0 +1,562 @@
+[
+  {
+    "id": 1,
+    "name": "Aurora Knit Runner",
+    "category": "Footwear",
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=80",
+    "price": 129,
+    "description": "Featherweight knit sneaker engineered for all-day city exploration.",
+    "tags": ["running", "breathable", "urban"],
+    "embedding": [0.62, 0.58, 0.53, 0.59, 0.28, 0.41]
+  },
+  {
+    "id": 2,
+    "name": "Atlas Trail Sneaker",
+    "category": "Footwear",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80",
+    "price": 149,
+    "description": "Aggressive grip outsole paired with a water-repellent upper for mixed terrain runs.",
+    "tags": ["outdoor", "trail", "water-repellent"],
+    "embedding": [0.44, 0.48, 0.39, 0.46, 0.36, 0.33]
+  },
+  {
+    "id": 3,
+    "name": "Meridian Court Sneaker",
+    "category": "Footwear",
+    "image": "https://images.unsplash.com/photo-1519744792095-2f2205e87b6f?auto=format&fit=crop&w=900&q=80",
+    "price": 119,
+    "description": "Retro court silhouette updated with responsive foam cushioning.",
+    "tags": ["classic", "leather", "sport"],
+    "embedding": [0.68, 0.66, 0.63, 0.64, 0.21, 0.37]
+  },
+  {
+    "id": 4,
+    "name": "Lumen City Loafer",
+    "category": "Footwear",
+    "image": "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=900&q=80",
+    "price": 139,
+    "description": "Minimal leather loafer with flexible outsole for commutes.",
+    "tags": ["leather", "commuter", "slip-on"],
+    "embedding": [0.49, 0.34, 0.24, 0.38, 0.31, 0.18]
+  },
+  {
+    "id": 5,
+    "name": "Summit Hiker Pro Boot",
+    "category": "Footwear",
+    "image": "https://images.unsplash.com/photo-1503342250614-ca4407868a5b?auto=format&fit=crop&w=900&q=80",
+    "price": 189,
+    "description": "Full-grain leather boot with Vibram outsole and gusseted tongue.",
+    "tags": ["leather", "hiking", "waterproof"],
+    "embedding": [0.41, 0.32, 0.22, 0.37, 0.44, 0.19]
+  },
+  {
+    "id": 6,
+    "name": "Harbor Canvas Slip-On",
+    "category": "Footwear",
+    "image": "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=900&q=80",
+    "price": 84,
+    "description": "Coastal-inspired slip-on with vulcanized rubber midsole.",
+    "tags": ["canvas", "casual", "summer"],
+    "embedding": [0.71, 0.72, 0.68, 0.70, 0.18, 0.35]
+  },
+  {
+    "id": 7,
+    "name": "Driftwood Leather Boot",
+    "category": "Footwear",
+    "image": "https://images.unsplash.com/photo-1475180098004-ca77a66827be?auto=format&fit=crop&w=900&q=80",
+    "price": 210,
+    "description": "Heritage lace-up boot with storm welt and waxed laces.",
+    "tags": ["heritage", "leather", "casual"],
+    "embedding": [0.43, 0.29, 0.21, 0.34, 0.38, 0.16]
+  },
+  {
+    "id": 8,
+    "name": "Solstice Performance Tee",
+    "category": "Apparel",
+    "image": "https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?auto=format&fit=crop&w=900&q=80",
+    "price": 49,
+    "description": "Sweat-wicking knit tee with bonded seams and UV protection.",
+    "tags": ["training", "lightweight", "quick-dry"],
+    "embedding": [0.64, 0.67, 0.73, 0.69, 0.17, 0.38]
+  },
+  {
+    "id": 9,
+    "name": "Meridian Stretch Chino",
+    "category": "Apparel",
+    "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=900&q=80",
+    "price": 98,
+    "description": "Tapered chino with 4-way stretch fabric and secure phone pocket.",
+    "tags": ["commuter", "stretch", "office"],
+    "embedding": [0.62, 0.55, 0.47, 0.53, 0.27, 0.29]
+  },
+  {
+    "id": 10,
+    "name": "Harbor Denim Jacket",
+    "category": "Apparel",
+    "image": "https://images.unsplash.com/photo-1504893524553-b8553f24b6b8?auto=format&fit=crop&w=900&q=80",
+    "price": 165,
+    "description": "Japanese selvedge denim with corduroy collar and hidden knit cuffs.",
+    "tags": ["denim", "selvedge", "layering"],
+    "embedding": [0.34, 0.47, 0.68, 0.52, 0.23, 0.31]
+  },
+  {
+    "id": 11,
+    "name": "Canyon Field Jacket",
+    "category": "Apparel",
+    "image": "https://images.unsplash.com/photo-1484519332611-516457305ff6?auto=format&fit=crop&w=900&q=80",
+    "price": 189,
+    "description": "Waxed cotton field jacket with removable insulated liner.",
+    "tags": ["waxed", "modular", "utility"],
+    "embedding": [0.45, 0.43, 0.37, 0.44, 0.32, 0.26]
+  },
+  {
+    "id": 12,
+    "name": "Northwind Parka",
+    "category": "Apparel",
+    "image": "https://images.unsplash.com/photo-1514996937319-344454492b37?auto=format&fit=crop&w=900&q=80",
+    "price": 229,
+    "description": "Storm-proof parka with recycled insulation rated for -10°C.",
+    "tags": ["winter", "waterproof", "insulated"],
+    "embedding": [0.29, 0.40, 0.55, 0.46, 0.33, 0.24]
+  },
+  {
+    "id": 13,
+    "name": "Sierra Quilted Vest",
+    "category": "Apparel",
+    "image": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?auto=format&fit=crop&w=900&q=80",
+    "price": 118,
+    "description": "Hybrid insulation vest with stretch side panels for layering.",
+    "tags": ["insulated", "layer", "travel"],
+    "embedding": [0.46, 0.48, 0.50, 0.48, 0.25, 0.30]
+  },
+  {
+    "id": 14,
+    "name": "Horizon Merino Hoodie",
+    "category": "Apparel",
+    "image": "https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?auto=format&fit=crop&w=900&q=80",
+    "price": 139,
+    "description": "Premium merino blend hoodie with hidden media pocket.",
+    "tags": ["merino", "odor-free", "travel"],
+    "embedding": [0.54, 0.49, 0.43, 0.49, 0.29, 0.27]
+  },
+  {
+    "id": 15,
+    "name": "Pulse Training Short",
+    "category": "Apparel",
+    "image": "https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?auto=format&fit=crop&w=1200&q=80",
+    "price": 59,
+    "description": "Lightweight perforated short with built-in liner and key loop.",
+    "tags": ["gym", "perforated", "liner"],
+    "embedding": [0.63, 0.66, 0.71, 0.67, 0.19, 0.36]
+  },
+  {
+    "id": 16,
+    "name": "AeroFlex Track Pant",
+    "category": "Apparel",
+    "image": "https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?auto=format&fit=crop&w=600&q=80",
+    "price": 110,
+    "description": "Articulated knee jogger with reflective taping and zip cuffs.",
+    "tags": ["reflective", "jogger", "stretch"],
+    "embedding": [0.40, 0.43, 0.50, 0.45, 0.27, 0.28]
+  },
+  {
+    "id": 17,
+    "name": "Orbit Smartwatch 2",
+    "category": "Wearables",
+    "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=900&q=80",
+    "price": 289,
+    "description": "AMOLED smartwatch with dual-frequency GPS and 7-day battery life.",
+    "tags": ["smart", "gps", "health"],
+    "embedding": [0.32, 0.41, 0.57, 0.46, 0.31, 0.25]
+  },
+  {
+    "id": 18,
+    "name": "Meridian Classic Watch",
+    "category": "Wearables",
+    "image": "https://images.unsplash.com/photo-1491553895911-0055eca6402d?auto=format&fit=crop&w=900&q=80",
+    "price": 355,
+    "description": "Automatic 38mm watch with sapphire crystal and quick-release strap.",
+    "tags": ["mechanical", "sapphire", "classic"],
+    "embedding": [0.52, 0.39, 0.28, 0.41, 0.33, 0.21]
+  },
+  {
+    "id": 19,
+    "name": "Pulse Fitness Band",
+    "category": "Wearables",
+    "image": "https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?auto=format&fit=crop&w=900&q=80",
+    "price": 119,
+    "description": "Compact fitness band with ECG sensor and guided workouts.",
+    "tags": ["fitness", "ecg", "lightweight"],
+    "embedding": [0.33, 0.47, 0.58, 0.47, 0.30, 0.27]
+  },
+  {
+    "id": 20,
+    "name": "Halo Wireless Earbuds",
+    "category": "Audio",
+    "image": "https://images.unsplash.com/photo-1505744386214-51dba16a26d9?auto=format&fit=crop&w=900&q=80",
+    "price": 179,
+    "description": "Hybrid ANC earbuds with spatial audio tuning and Qi case.",
+    "tags": ["anc", "wireless", "spatial"],
+    "embedding": [0.65, 0.63, 0.60, 0.62, 0.24, 0.34]
+  },
+  {
+    "id": 21,
+    "name": "Resonance Studio Headphones",
+    "category": "Audio",
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=900&q=80",
+    "price": 329,
+    "description": "Open-back reference headphones with magnesium frame.",
+    "tags": ["studio", "open-back", "reference"],
+    "embedding": [0.39, 0.42, 0.50, 0.44, 0.26, 0.31]
+  },
+  {
+    "id": 22,
+    "name": "Nova Bluetooth Speaker",
+    "category": "Audio",
+    "image": "https://images.unsplash.com/photo-1514996937319-344454492b37?auto=format&fit=crop&w=900&q=80",
+    "price": 199,
+    "description": "360° directional speaker with adaptive room calibration.",
+    "tags": ["portable", "360", "calibration"],
+    "embedding": [0.37, 0.46, 0.58, 0.47, 0.29, 0.30]
+  },
+  {
+    "id": 23,
+    "name": "Ember Portable Projector",
+    "category": "Tech",
+    "image": "https://images.unsplash.com/photo-1452857297128-d9c29adba80b?auto=format&fit=crop&w=900&q=80",
+    "price": 489,
+    "description": "4K short-throw projector with auto keystone and battery pack.",
+    "tags": ["4k", "portable", "short-throw"],
+    "embedding": [0.52, 0.54, 0.60, 0.56, 0.25, 0.33]
+  },
+  {
+    "id": 24,
+    "name": "Lumen Mini Drone",
+    "category": "Tech",
+    "image": "https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=900&q=80",
+    "price": 379,
+    "description": "Palm-sized drone with 4K gimbal and obstacle sensing.",
+    "tags": ["drone", "4k", "stabilized"],
+    "embedding": [0.58, 0.60, 0.63, 0.60, 0.22, 0.35]
+  },
+  {
+    "id": 25,
+    "name": "Cascade Pro Camera",
+    "category": "Tech",
+    "image": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=900&q=80",
+    "price": 1699,
+    "description": "Full-frame mirrorless body with dual card slots and 8K video.",
+    "tags": ["full-frame", "mirrorless", "8k"],
+    "embedding": [0.34, 0.39, 0.50, 0.41, 0.30, 0.25]
+  },
+  {
+    "id": 26,
+    "name": "Vector Action Camera",
+    "category": "Tech",
+    "image": "https://images.unsplash.com/photo-1508898578281-774ac4893c0c?auto=format&fit=crop&w=900&q=80",
+    "price": 329,
+    "description": "Waterproof action cam with horizon leveling and 5.3K sensor.",
+    "tags": ["action", "waterproof", "stabilized"],
+    "embedding": [0.30, 0.47, 0.62, 0.47, 0.34, 0.28]
+  },
+  {
+    "id": 27,
+    "name": "Aurora Ultralight Laptop",
+    "category": "Computing",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=80",
+    "price": 1499,
+    "description": "13\" carbon chassis laptop with OLED touch display and 18-hour battery.",
+    "tags": ["oled", "ultralight", "touch"],
+    "embedding": [0.60, 0.62, 0.69, 0.64, 0.21, 0.33]
+  },
+  {
+    "id": 28,
+    "name": "Flux Mechanical Keyboard",
+    "category": "Computing",
+    "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=900&q=80",
+    "price": 219,
+    "description": "Compact gasket-mounted keyboard with hot-swappable switches.",
+    "tags": ["mechanical", "hot-swap", "wireless"],
+    "embedding": [0.70, 0.67, 0.63, 0.67, 0.20, 0.32]
+  },
+  {
+    "id": 29,
+    "name": "Lattice Productivity Monitor",
+    "category": "Computing",
+    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=900&q=80",
+    "price": 599,
+    "description": "34\" ultrawide monitor with Thunderbolt docking and matte coating.",
+    "tags": ["ultrawide", "thunderbolt", "docking"],
+    "embedding": [0.64, 0.61, 0.59, 0.61, 0.24, 0.30]
+  },
+  {
+    "id": 30,
+    "name": "Orbit Precision Mouse",
+    "category": "Computing",
+    "image": "https://images.unsplash.com/photo-1515616887061-2bde6b6a84b6?auto=format&fit=crop&w=900&q=80",
+    "price": 119,
+    "description": "Low-profile mouse with 8K sensor and multi-device pairing.",
+    "tags": ["8k", "multi-device", "ergonomic"],
+    "embedding": [0.57, 0.55, 0.52, 0.55, 0.26, 0.28]
+  },
+  {
+    "id": 31,
+    "name": "Slate Minimal Backpack",
+    "category": "Carry",
+    "image": "https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=900&q=80",
+    "price": 185,
+    "description": "Weatherproof backpack with suspended laptop sleeve and quick side access.",
+    "tags": ["backpack", "weatherproof", "organizer"],
+    "embedding": [0.38, 0.44, 0.51, 0.44, 0.32, 0.27]
+  },
+  {
+    "id": 32,
+    "name": "Ridge Waterproof Duffel",
+    "category": "Carry",
+    "image": "https://images.unsplash.com/photo-1514474959185-1472c0237f33?auto=format&fit=crop&w=900&q=80",
+    "price": 215,
+    "description": "RF-welded travel duffel with removable backpack straps.",
+    "tags": ["travel", "waterproof", "modular"],
+    "embedding": [0.31, 0.39, 0.49, 0.40, 0.34, 0.24]
+  },
+  {
+    "id": 33,
+    "name": "Terra Daypack",
+    "category": "Carry",
+    "image": "https://images.unsplash.com/photo-1489515217757-5fd1be406fef?auto=format&fit=crop&w=900&q=80",
+    "price": 145,
+    "description": "Recycled ripstop daypack with hydration compatibility.",
+    "tags": ["daypack", "recycled", "hydration"],
+    "embedding": [0.46, 0.54, 0.41, 0.48, 0.30, 0.30]
+  },
+  {
+    "id": 34,
+    "name": "Axis Camera Sling",
+    "category": "Carry",
+    "image": "https://images.unsplash.com/photo-1500534314602-3d0a1f4b3da3?auto=format&fit=crop&w=900&q=80",
+    "price": 165,
+    "description": "Cross-body sling with customizable padded dividers for mirrorless kits.",
+    "tags": ["camera", "sling", "customizable"],
+    "embedding": [0.32, 0.38, 0.44, 0.38, 0.33, 0.22]
+  },
+  {
+    "id": 35,
+    "name": "Grove Ceramic Planter Set",
+    "category": "Home",
+    "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=900&q=80",
+    "price": 89,
+    "description": "Matte ceramic planters with integrated water reservoirs for indoor botanicals.",
+    "tags": ["planter", "ceramic", "self-watering"],
+    "embedding": [0.47, 0.58, 0.42, 0.49, 0.26, 0.33]
+  },
+  {
+    "id": 36,
+    "name": "Mesa Oak Coffee Table",
+    "category": "Home",
+    "image": "https://images.unsplash.com/photo-1465800872432-4762b8c4b21d?auto=format&fit=crop&w=900&q=80",
+    "price": 425,
+    "description": "Solid oak coffee table with softened edges and floating shelf.",
+    "tags": ["oak", "living room", "storage"],
+    "embedding": [0.58, 0.46, 0.33, 0.46, 0.32, 0.25]
+  },
+  {
+    "id": 37,
+    "name": "Arc Floor Lamp",
+    "category": "Home",
+    "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=900&q=80",
+    "price": 259,
+    "description": "Adjustable arc lamp with diffused linen shade and dimmer switch.",
+    "tags": ["lighting", "dimmable", "linen"],
+    "embedding": [0.70, 0.70, 0.68, 0.69, 0.20, 0.35]
+  },
+  {
+    "id": 38,
+    "name": "Loom Textured Rug",
+    "category": "Home",
+    "image": "https://images.unsplash.com/photo-1501045661006-fcebe0257c3f?auto=format&fit=crop&w=900&q=80",
+    "price": 349,
+    "description": "Hand-loomed wool rug with tonal geometric pattern.",
+    "tags": ["rug", "wool", "handmade"],
+    "embedding": [0.67, 0.62, 0.56, 0.62, 0.23, 0.32]
+  },
+  {
+    "id": 39,
+    "name": "Tide Stoneware Dinner Set",
+    "category": "Home",
+    "image": "https://images.unsplash.com/photo-1473187983305-f615310e7daa?auto=format&fit=crop&w=900&q=80",
+    "price": 179,
+    "description": "Twelve-piece reactive glaze stoneware dinnerware set.",
+    "tags": ["dining", "stoneware", "dishwasher"],
+    "embedding": [0.66, 0.68, 0.72, 0.69, 0.18, 0.36]
+  },
+  {
+    "id": 40,
+    "name": "Ember Cast-Iron Skillet",
+    "category": "Home",
+    "image": "https://images.unsplash.com/photo-1475855578541-507ddee0b49d?auto=format&fit=crop&w=900&q=80",
+    "price": 145,
+    "description": "Pre-seasoned cast-iron skillet with helper handle and pour spouts.",
+    "tags": ["cookware", "cast-iron", "kitchen"],
+    "embedding": [0.45, 0.36, 0.29, 0.37, 0.40, 0.22]
+  },
+  {
+    "id": 41,
+    "name": "Summit Enamel Kettle",
+    "category": "Home",
+    "image": "https://images.unsplash.com/photo-1505253206903-46cfa8a4c24a?auto=format&fit=crop&w=900&q=80",
+    "price": 95,
+    "description": "Induction-ready enameled kettle with thermochromatic handle.",
+    "tags": ["kitchen", "kettle", "enamel"],
+    "embedding": [0.55, 0.63, 0.68, 0.64, 0.21, 0.34]
+  },
+  {
+    "id": 42,
+    "name": "Drift Linen Bedding Set",
+    "category": "Home",
+    "image": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=900&q=80",
+    "price": 329,
+    "description": "Stonewashed linen bedding set with envelope pillow closures.",
+    "tags": ["linen", "bedroom", "breathable"],
+    "embedding": [0.78, 0.77, 0.73, 0.76, 0.16, 0.39]
+  },
+  {
+    "id": 43,
+    "name": "Haze Reed Diffuser",
+    "category": "Home",
+    "image": "https://images.unsplash.com/photo-1502823403499-6ccfcf4fb453?auto=format&fit=crop&w=900&q=80",
+    "price": 58,
+    "description": "Slow-release reed diffuser with bergamot and cedar accords.",
+    "tags": ["aroma", "diffuser", "reed"],
+    "embedding": [0.71, 0.67, 0.60, 0.66, 0.20, 0.33]
+  },
+  {
+    "id": 44,
+    "name": "Solis Scented Candle",
+    "category": "Home",
+    "image": "https://images.unsplash.com/photo-1470337458703-46ad1756a187?auto=format&fit=crop&w=900&q=80",
+    "price": 42,
+    "description": "Hand-poured soy candle with ceramic vessel and wooden wick.",
+    "tags": ["candle", "soy", "decor"],
+    "embedding": [0.68, 0.61, 0.54, 0.60, 0.23, 0.31]
+  },
+  {
+    "id": 45,
+    "name": "Pulse Foam Roller",
+    "category": "Wellness",
+    "image": "https://images.unsplash.com/photo-1434682881908-b43d0467b798?auto=format&fit=crop&w=900&q=80",
+    "price": 69,
+    "description": "Textured foam roller with vibration core and USB-C charging.",
+    "tags": ["recovery", "vibration", "gym"],
+    "embedding": [0.53, 0.62, 0.69, 0.63, 0.20, 0.35]
+  },
+  {
+    "id": 46,
+    "name": "Align Yoga Mat",
+    "category": "Wellness",
+    "image": "https://images.unsplash.com/photo-1506806732259-39c2d0268443?auto=format&fit=crop&w=900&q=80",
+    "price": 99,
+    "description": "Natural rubber yoga mat with alignment guides and cork grip.",
+    "tags": ["yoga", "cork", "natural"],
+    "embedding": [0.47, 0.55, 0.42, 0.48, 0.28, 0.30]
+  },
+  {
+    "id": 47,
+    "name": "Stride Running Cap",
+    "category": "Accessories",
+    "image": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=900&q=80",
+    "price": 39,
+    "description": "Featherweight running cap with laser perforations and reflective brim.",
+    "tags": ["running", "reflective", "lightweight"],
+    "embedding": [0.67, 0.70, 0.72, 0.69, 0.17, 0.37]
+  },
+  {
+    "id": 48,
+    "name": "Veil Performance Sunglasses",
+    "category": "Accessories",
+    "image": "https://images.unsplash.com/photo-1470246973918-29a93221c455?auto=format&fit=crop&w=900&q=80",
+    "price": 215,
+    "description": "Wraparound sunglasses with photochromic lenses and anti-fog vents.",
+    "tags": ["cycling", "photochromic", "anti-fog"],
+    "embedding": [0.30, 0.38, 0.50, 0.39, 0.29, 0.24]
+  },
+  {
+    "id": 49,
+    "name": "Apex Road Cycling Helmet",
+    "category": "Accessories",
+    "image": "https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?auto=format&fit=crop&w=900&q=80",
+    "price": 275,
+    "description": "Aero road helmet with MIPS protection and magnetic lens shield.",
+    "tags": ["cycling", "aero", "mips"],
+    "embedding": [0.41, 0.49, 0.58, 0.49, 0.33, 0.29]
+  },
+  {
+    "id": 50,
+    "name": "Venture Trail Poles",
+    "category": "Accessories",
+    "image": "https://images.unsplash.com/photo-1484704849700-f032a568e944?auto=format&fit=crop&w=900&q=80",
+    "price": 139,
+    "description": "Carbon trekking poles with cork grips and quick-fold locking.",
+    "tags": ["trekking", "carbon", "lightweight"],
+    "embedding": [0.52, 0.57, 0.46, 0.53, 0.27, 0.31]
+  },
+  {
+    "id": 51,
+    "name": "Wave Swim Goggles",
+    "category": "Accessories",
+    "image": "https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?auto=format&fit=crop&w=700&q=80",
+    "price": 59,
+    "description": "Mirrored swim goggles with anti-fog seal and UV protection.",
+    "tags": ["swim", "mirrored", "anti-fog"],
+    "embedding": [0.41, 0.52, 0.69, 0.54, 0.28, 0.33]
+  },
+  {
+    "id": 52,
+    "name": "Solace Weighted Blanket",
+    "category": "Wellness",
+    "image": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=700&q=80",
+    "price": 225,
+    "description": "Evenly distributed glass bead weighted blanket with washable cover.",
+    "tags": ["sleep", "calming", "washable"],
+    "embedding": [0.75, 0.74, 0.69, 0.73, 0.17, 0.37]
+  },
+  {
+    "id": 53,
+    "name": "Nova Studio Headphones",
+    "category": "Audio",
+    "image": "https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?auto=format&fit=crop&w=900&q=80",
+    "price": 249,
+    "description": "Over-ear studio monitor headphones with memory foam and balanced drivers.",
+    "tags": ["monitor", "wireless", "studio"],
+    "embedding": [0.59, 0.62, 0.70, 0.64, 0.22, 0.33]
+  },
+  {
+    "id": 54,
+    "name": "Lumen Folding Drone",
+    "category": "Tech",
+    "image": "https://images.unsplash.com/photo-1508610048659-a06b669e3321?auto=format&fit=crop&w=900&q=80",
+    "price": 899,
+    "description": "Travel-friendly 4K drone with obstacle sensing and 34-minute flights.",
+    "tags": ["drone", "4k", "folding"],
+    "embedding": [0.35, 0.48, 0.63, 0.49, 0.32, 0.27]
+  },
+  {
+    "id": 55,
+    "name": "Evergreen Travel Mug",
+    "category": "Home",
+    "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80",
+    "price": 48,
+    "description": "Vacuum insulated travel mug with leak-proof flip lid and carry loop.",
+    "tags": ["mug", "insulated", "travel"],
+    "embedding": [0.52, 0.61, 0.66, 0.60, 0.23, 0.33]
+  },
+  {
+    "id": 56,
+    "name": "Coastline Picnic Set",
+    "category": "Outdoor",
+    "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=900&q=80",
+    "price": 195,
+    "description": "Canvas picnic bundle with bamboo plates, cooler pocket, and blanket.",
+    "tags": ["picnic", "canvas", "outdoor"],
+    "embedding": [0.44, 0.55, 0.50, 0.51, 0.29, 0.31]
+  }
+]
